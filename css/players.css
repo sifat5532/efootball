@@ -1,0 +1,33 @@
+.playersList {
+    background: yellow;
+}
+
+.playersList h1, h2 {
+    margin: 0px;
+    text-align: center;
+    text-decoration: underline;
+}
+.playersList h1 {
+    font-size: 60px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.playersList h2 {
+    font-size: 40px;
+    padding-bottom: 60px;
+}
+.playerExampleBox h1 {
+    font-size: 40px;
+    padding: 0px;
+}
+.playerExampleBoxBefore {
+    display: inline;
+    margin-right: 100px;
+}
+.playerExampleBoxBeforeLast {
+    display: inline;
+}
+.playerExampleBox {
+    margin-bottom: 100px;
+}

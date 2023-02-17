@@ -1,0 +1,787 @@
+/* navigation responsive starts here*/
+@media screen and (max-width: 1100px) {
+    .nav{
+        width: 100%;
+    }
+  }
+@media screen and (max-width: 750px) {
+    .nav{
+        width: 100%;
+    }
+    .nav a{
+        padding: 10px;
+    }
+  }
+@media screen and (max-width: 670px) {
+    .nav{
+        width: 100%;
+    }
+    .nav a{
+        padding: 5px;
+    }
+  }
+@media screen and (max-width: 630px) {
+    .nav{
+        width: 100%;
+    }
+    .nav a{
+        padding: 5px;
+    }
+    
+  }
+
+@media screen and (max-width: 600px) {
+    .nav{
+        width: 100%;
+    }
+    .nav a{
+        padding: 5px;
+        margin-right: 25px;
+    }
+    }
+    
+
+  @media screen and (max-width: 540px) {
+    
+    .nav a{
+        padding: 5px;
+        margin-right: 25px;
+        font-size: 25px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .nav{
+        height: 45px;
+    }
+    .nav a{
+        padding: 3px;
+        margin-right: 15px;
+        font-size: 25px;
+    }
+  }
+  @media screen and (max-width: 460px) {
+    
+    .nav a{
+        padding: 2px;
+        margin-right: 15px;
+        font-size: 25px;
+    }
+  }
+  @media screen and (max-width: 430px) {
+    
+    .nav a{
+        padding: 2px;
+        margin-right: 13px;
+        font-size: 20px;
+    }
+  }
+
+
+  @media screen and (max-width: 370px) {
+    .nav{
+        height: 40px;
+    }
+    .nav a{
+        padding: 2px;
+        margin-right: 10px;
+        font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .nav{
+        height: 40px;
+    }
+    .nav a{
+        padding: 0px;
+        margin-right: 10px;
+        font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 330px) {
+    .nav{
+        height: 40px;
+    }
+    .nav a{
+        padding: 0px;
+        margin-right: 15px;
+        font-size: 18px;
+    }
+    .nav a:first-child{
+        padding: 0px 10px 0px 10px;
+    }
+    .nav a:last-child{
+        padding: 0px 10px 0px 10px;
+    }
+  }
+
+  
+  @media screen and (max-width: 300px) {
+    .nav{
+        height: 30px;
+    }
+    .nav a{
+        padding: 0px;
+        margin-right: 15px;
+        font-size: 15px;
+    }
+    .nav a:first-child{
+        padding: 0px 10px 0px 10px;
+    }
+    .nav a:last-child{
+        padding: 0px 10px 0px 10px;
+    }
+  }
+
+  @media screen and (max-width: 260px) {
+    .nav{
+        height: 30px;
+    }
+    .nav a{
+        padding: 0px;
+        margin-right: 12px;
+        font-size: 14px;
+    }
+    .nav a:first-child{
+        padding: 0px 8px 0px 8px;
+    }
+    .nav a:last-child{
+        padding: 0px 8px 0px 8px;
+    }
+  }
+  @media screen and (max-width: 230px) {
+    .nav{
+        height: 25px;
+    }
+    .nav a{
+        padding: 0px;
+        margin-right: 10px;
+        font-size: 13px;
+    }
+    .nav a:first-child{
+        padding: 0px 7px 0px 7px;
+    }
+    .nav a:last-child{
+        padding: 0px 7px 0px 7px;
+    }
+  }
+  @media screen and (max-width: 210px) {
+    .nav{
+        height: 22px;
+    }
+    .nav a{
+        padding: 0px;
+        margin-right: 9px;
+        font-size: 13px;
+    }
+    .nav a:first-child{
+        padding: 0px 6px 0px 6px;
+    }
+    .nav a:last-child{
+        padding: 0px 6px 0px 6px;
+    }
+  }
+/* navigation responsive ends here*/
+
+
+/* logo responsive starts here */
+@media screen and (max-width: 750px) {
+    .logo img{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .logo img{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .logo img{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .logo img{
+        width: 350px;
+    }
+    .nav{
+        top: 100px;
+    }
+    .logo{
+        height: 150px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .logo img{
+        width: 300px;
+    }
+    .nav{
+        top: 100px;
+    }
+    .logo{
+        height: 145px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .logo img{
+        width: 200px;
+    }
+    .nav{
+        top: 70px;
+    }
+    .logo{
+        height: 115px;
+    }
+}
+@media screen and (max-width: 305px) {
+    .logo img{
+        width: 170px;
+    }
+    .nav{
+        top: 55px;
+    }
+    .logo{
+        height: 87px;
+    }
+}
+@media screen and (max-width: 250px) {
+    .logo img{
+        width: 140px;
+    }
+    .nav{
+        top: 40px;
+    }
+    .logo{
+        height: 70px;
+    }
+}
+@media screen and (max-width: 230px) {
+    .logo img{
+        width: 150px;
+    }
+    .nav{
+        top: 45px;
+    }
+    .logo{
+        height: 70px;
+    }
+}
+
+/* logo responsive ends here */
+
+
+/* match box responsive starts here */
+
+@media screen and (max-width: 1100px) {
+    .beforemain{
+        width: 100%;
+        margin: auto;
+    }
+    .main{
+        width: 90%;
+        margin: auto;
+    
+    }
+    .match{
+        margin-right: 2.55%;        
+    }
+}
+@media screen and (max-width: 1051px) {
+    .beforemain{
+        width: 100%;
+        margin: auto;
+    }
+    .main{
+        width: 90%;
+        
+    
+    }
+    .match:nth-child(2){
+        margin-left: 20%;  
+        margin-right: 5%;   
+    }
+    .match:first-child{
+        margin-left: 5%;  
+        margin-right: 0%;  
+    }
+    .match:last-child{
+        margin: auto;
+        display: block;
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width: 1030px) {
+    
+    .match:nth-child(2){
+        margin-left: 25%;  
+        margin-right: 5%;   
+    }
+    .match:first-child{
+        margin-left: 5%;  
+        margin-right: 0%;  
+    }
+  
+}
+@media screen and (max-width: 1024px) {
+    
+    .match:nth-child(2){
+        margin-left: 24%;  
+        margin-right: 0%;   
+    }
+    .match:first-child{
+        margin-left: 5%;  
+        margin-right: 0%;  
+    }
+   
+}
+
+@media screen and (max-width: 981px) {
+    
+    .match:nth-child(2){
+        margin-left: 15%;  
+        margin-right: 0%;   
+    }
+    .match:first-child{
+        margin-left: 9%;  
+        margin-right: 0%;  
+    }
+}
+@media screen and (max-width: 900px) {
+    
+    .match:nth-child(2){
+        margin-left: 15%;  
+        margin-right: 0%;   
+    }
+    .match:first-child{
+        margin-left: 5%;  
+        margin-right: 0%;  
+    }
+
+}
+@media screen and (max-width: 860px) {
+    
+    .match:nth-child(2){
+        margin-left: 19%;  
+        margin-right: 0%;   
+    }
+    .match:first-child{
+        margin-left: 0%;  
+        margin-right: 0%;  
+    }
+
+}
+@media screen and (max-width: 820px) {
+    
+    .match:nth-child(2){
+        margin-left: 15%;  
+        margin-right: 0%;   
+    }
+
+}
+@media screen and (max-width: 782px) {
+    
+    .match:nth-child(2){
+        margin-left: 10%;  
+        margin-right: 0%;   
+    }
+
+}
+@media screen and (max-width: 740px) {
+    
+    .match:nth-child(2){
+        margin-left: 7%;  
+        margin-right: 0%;   
+    }
+
+}
+@media screen and (max-width: 715px) {
+    
+    .match:nth-child(2){
+        margin-left: 5%;  
+        margin-right: 0%;   
+    }
+
+}
+@media screen and (max-width: 700px) {
+    
+    .match:first-child{
+        margin: auto;
+        display: block; 
+        margin-bottom: 60px;
+    }
+    .main{
+        padding-top: 60px;
+    }
+    .match:nth-child(2){
+        margin: auto;
+        display: block; 
+        margin-bottom: 60px;
+    }
+    .match:last-child{
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width: 330px){
+    .match{
+        width: 250px;
+    }
+    .matchTitle {
+        font-size: 40px;
+        padding: 0px;
+    }
+    
+    .matchTime {
+        font-size: 25px;
+        padding: 0px;
+        margin-top: 5px;
+    }
+    
+    .matchTeam {
+        width: 70%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .matchPlayer {
+        font-size: 35px;
+    }
+    
+    .matchPlayerOverview {
+        font-size: 15px;
+    }
+    
+    .matchWatch {
+        font-size: 20px;
+    }
+    .schedulebtn {
+        font-size: 20px;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 280px){
+    .main{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 260px){
+    .main{
+        width: 100%;
+    }
+    .match{
+        width: 200px;
+    }
+    .matchTitle {
+        font-size: 35px;
+        padding: 0px;
+    }
+    
+    .matchTime {
+        font-size: 20px;
+        padding: 0px;
+        margin-top: 5px;
+    }
+    
+    .matchTeam {
+        width: 70%;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    
+    .matchPlayer {
+        font-size: 30px;
+    }
+    
+    .matchPlayerOverview {
+        font-size: 10px;
+    }
+    
+    .matchWatch {
+        font-size: 15px;
+    }
+}
+
+/* match box responsive ends here */
+
+
+/* videos starts here*/
+
+@media screen and (max-width: 1100px){
+    .shortVideosBox{
+        display: block;
+        margin: auto;
+        width: 80%;
+        margin-bottom: 100px;
+        
+    }
+
+    .shortVideosBox:last-child{
+        display: block;
+        margin: auto;
+        width: 80%;
+        margin-bottom: 100px;
+      
+    }
+}
+@media screen and (max-width: 500px){
+    .shortVideosBox{
+        display: block;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 80px;
+        
+    }
+    .shortVideosBox:last-child{
+        display: block;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 80px;
+      
+    }
+    .shortVideos h1{
+        font-size: 50px;
+    }
+    .shortVideos h2{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 300px){
+    .schedulebtnTwo{
+        font-size: 20px;
+        padding: 20px;
+    }
+
+}
+
+@media screen and (max-width: 280px){
+    .shortVideosBox{
+        display: block;
+        margin: auto;
+        width: 90%;
+        margin-bottom: 50px;
+        
+    }
+    .shortVideosBox:last-child{
+        display: block;
+        margin: auto;
+        width: 90%;
+        margin-bottom: 50px;
+      
+    }
+    .shortVideos h1{
+        font-size: 40px;
+    }
+    .shortVideos h2{
+        font-size: 30px;
+    }
+}
+/* videos ends here*/
+
+@media screen and (max-width: 1101px){
+    .playerMain{
+        width: 100%;
+        margin: auto;
+    }
+    
+    .main{
+        width: 90%;
+        margin: auto;
+    
+    }
+    .playerExampleBox{
+        display: block;
+        margin: auto;    
+        
+    }
+    .playerExampleBox:last-child{
+        margin: auto;
+    }
+    
+
+}
+@media screen and (max-width: 1100px){
+    .playerExampleBox{
+        margin-bottom: 60px;
+    }
+    .playerExampleBox:last-child{
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 340px){
+    .playerExampleBox {
+        width: 95%;
+    }
+}
+
+
+/*Responsive for players*/
+
+
+@media only screen and (min-width: 1102px) and (max-width: 1300px) {
+	.playerExampleBox:last-child{
+        margin-right: -35px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .playersList {
+        padding-bottom: 50px;
+    }
+}
+
+/*Responsive for standings*/
+
+@media screen and (max-width: 550px){
+    .group{
+        width: 85%;
+    }
+    .group table th{
+        font-size: 4vw;
+        padding-right: 3vw;
+        padding-bottom: 1vw;
+    }
+    .group table td{
+        font-size: 4vw;
+        padding-bottom: 1vw;
+        padding-top: 1vw;
+    }
+    .standings h1 {
+        font-size: 15vw;
+        margin-bottom: 30px;
+    }
+    .group table caption{
+        font-size: 7vw;
+    }
+    .standings{
+        padding-top: 10px;
+    }
+    .footer{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .group{
+        width: 90%;
+    }
+    .group table th{
+        font-size: 3.5vw;
+        padding-right: 2vw;
+        padding-bottom: 0.5vw;
+    }
+    .group table td{
+        font-size: 3.25vw;
+        padding-bottom: 0.5vw;
+        padding-top: 0.5vw;
+    }
+    .standings h1 {
+        font-size: 10vw;
+        margin-bottom: 20px;
+    }
+    .group table caption{
+        font-size: 6vw;
+    }
+    
+
+}
+
+@media screen and (max-width: 340px){
+    .group{
+        width: 95%;
+    }
+    .group table th{
+        font-size: 3vw;
+        padding-right: 2vw;
+        padding-bottom: 0.5vw;
+    }
+    .group table td{
+        font-size: 3.5vw;
+        padding-bottom: 0.5vw;
+        padding-top: 0.5vw;
+    }
+    .standings h1 {
+        font-size: 10vw;
+        margin-bottom: 20px;
+    }
+    .group table caption{
+        font-size: 6vw;
+    }
+
+}
+@media screen and (max-width: 260px){
+    .group{
+        width: 95%;
+    }
+    .group table th{
+        font-size: 2.75vw;
+        padding-right: 2vw;
+        padding-bottom: 0.5vw;
+    }
+    .group table td{
+        font-size: 2.5vw;
+        padding-bottom: 0.5vw;
+        padding-top: 0.5vw;
+    }
+    .standings h1 {
+        font-size: 10vw;
+        margin-bottom: 20px;
+    }
+    .group table caption{
+        font-size: 6vw;
+    }
+
+}
+
+
+
+/*Responsive for schedule*/
+
+@media screen and (max-width: 500px){
+    .schedule {
+        padding-top: 0px;
+    }
+    
+    .schedule h1 {
+        font-size: 50px;
+    }
+    
+    .schedule h2 {
+        font-size: 35px;
+    }
+    .matchStatus, .eachMatchTime, .matchNo, .matchBetweenPlayer, .eachMatchResult {
+        font-size: 20px !important;
+    }
+
+}
+@media screen and (max-width: 400px){
+    .matchBetweenPlayer img {
+        width: 60px !important;
+        border-radius: 100%;
+        padding: 0px 5px !important;
+    }
+   
+}
+
+@media screen and (max-width: 270px){
+    .matchBetweenPlayer img {
+        width: 50px !important;
+        border-radius: 100%;
+        padding: 0px 5px !important;
+    }
+    .matchStatus, .eachMatchTime, .matchNo, .matchBetweenPlayer, .eachMatchResult {
+        font-size: 15px !important;
+    }
+}
+@media screen and (max-width: 221px){
+    .matchBetweenPlayer img {
+        width: 45px !important;
+        border-radius: 100%;
+        padding: 0px 3px !important;
+    }
+    .matchStatus, .eachMatchTime, .matchNo, .matchBetweenPlayer, .eachMatchResult {
+        font-size: 12px !important;
+    }
+}
+

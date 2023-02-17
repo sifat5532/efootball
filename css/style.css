@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+
+body{
+    margin: auto;
+    font-family: 'Teko', sans-serif;
+}
+.logo {
+    background: #000096;
+    margin: auto;
+    text-align: center;
+    height: 170px;
+}
+.logo img{
+    width: auto;
+    height: auto;
+}
+
+.main {
+    width: 1100px;
+    margin: auto;
+}
+
+.nav {
+    height: 50px;
+    margin: auto;
+    background: #3132fe;
+    position: absolute;
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    top: 120px;
+    text-align: center;
+    border-radius: 100vh;
+    transition: none;
+    justify-content: center;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 25px;
+    margin-right: 40px;
+    padding: 0px 20px 0px 20px;
+    border-radius: 100vh;
+    transition-duration: 0.35s;
+}
+
+.nav a:first-child{
+    margin-left: 0px;
+    background-color: #ffff00;
+    color: #3132dd;
+    padding: 0px 20px 0px 20px;
+    border-radius: 100vh;
+}
+.nav a:last-child{
+    margin-right: 0px;
+    background-color: #ffff00;
+    color: #3132dd;
+    padding: 0px 20px 0px 20px;
+    border-radius: 100vh;
+}
+
+.nav a:hover{
+    background-color: #ffff00;
+    color: #3132dd;
+}
+
+.navwidth{
+    width: 1100px;
+    margin: auto;
+}
+
+.slide img {
+    width: 100%;
+}
+
+.match {
+    display: inline-block;
+    width: 300px;
+    margin-right: 100px;
+    background: #3132dd;
+    color: white;
+}
+
+
+.match {
+    display: inline-block;
+    width: 296px;
+    margin-right: 100px;
+    background-image: url(../img/bg.jpg);
+    color: yellow;
+    border-radius: 3vh;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    border: 1px solid #000096;
+    transition: 0.35s;
+}
+
+.matchTitle {
+    text-align: center;
+    font-size: 45px;
+    background: yellow;
+    color: #000096;
+    padding: 5px;
+    border-radius: 3vh  3vh 0vh 0vh;
+    transition: 0.35s;
+}
+
+.matchTime {
+    text-align: center;
+    color: yellow;
+    font-size: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.35s;
+}
+
+.matchPlayer {
+    font-size: 40px;
+    transition: 0.35s;
+}
+
+.matchPlayerOverview span {
+    display: block;
+}
+
+.matchTeam {
+    /* padding: 21px; */
+    width: 65%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #3132fe;
+    cursor: pointer;
+    background: yellow;
+}
+
+.matchPlayerOverview {
+    background: #3132fe;
+    color: yellow;
+    font-size: 20px;
+    transition: 0.35s;
+}
+
+.matchVs {
+    font-size: 45px;
+}
+
+.match:last-child{
+    margin-right: 0px;
+}
+
+.match:hover .matchTitle{
+    background: #000096;
+    color: yellow;
+    padding: 5px;
+}
+.match:hover .matchTime{
+    background-color: yellow;
+    color: #000096;
+}
+.matchWatch {
+    margin: 25px;
+}
+
+.matchWatch a {
+    padding: 5px 20px;
+    font-size: 25px;
+    text-decoration: none;
+    background: yellow;
+    color: #000096;
+    font-weight: 500;
+    transition: 0.35s;
+    border-radius: 1vh;
+}
+.matchWatch a:hover{
+    color: yellow;
+    background-color: #3132dd;
+}
+.beforemain{
+    background-color: yellow;
+    padding-bottom: 50px;
+}
+
+.matchTeam:hover .matchPlayerOverview {
+    color: #3132fe;
+    background-color: yellow;
+}
+.matchTeam:hover .matchPlayer {
+    color: yellow;
+    background-color: #3132fe;
+}
+.schedulebtn {
+    text-align: center;
+    font-size: 25px;
+    padding: 25px;
+}
+
+.schedulebtn a {
+    background: #000096;
+    color: yellow;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3vh;
+    transition: 0.35s;
+}
+.schedulebtn a:hover{
+    background: #3132fe;
+}
+.shortVideos {
+    background-image: url("../img/bg1.jpg");
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: yellow;
+}
+
+.shortVideos h1 {
+    font-size: 60px;
+    text-decoration: underline;
+    margin: 0px;
+}
+
+
+.shortVideos h2 {
+    margin: 0px;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-bottom: 70px;
+}
+
+.shortVideosBox {
+    width: 296px;
+    border: 1px solid yellow;
+    display: inline-block;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.shortVideosBox video {
+    width: 100%;
+}
+
+
+.shortVideosInfo {
+    background: yellow;
+    color: #000096;
+    font-size: 25px;
+    font-weight: bold;
+    transition: 0.35s;
+}
+.shortVideosBox:last-child {
+    margin-right: 0px;
+}
+.shortVideosBox:hover .shortVideosInfo {
+    background: #000096;
+    color: yellow;
+}
+
+.schedulebtnTwo {
+    text-align: center;
+    font-size: 25px;
+    padding: 25px;
+}
+
+.schedulebtnTwo a {
+    background: yellow;
+    color: #000096;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3vh;
+    transition: 0.35s;
+}
+.schedulebtnTwo a:hover{
+    background: #3132fe;
+    color: yellow;
+}
+
+.playerMain {
+    background-color: yellow;
+    color: #000096;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.playerMain h1 {
+    font-size: 60px;
+    text-decoration: underline;
+    margin: 0px;
+}
+
+
+.playerMain h2 {
+    margin: 0px;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-bottom: 70px;
+}
+.playerExampleBox {
+    width: 296px;
+    border-radius: 3vh;
+    border: 1px solid #000096;
+    background-image: url(../img/bg.jpg);
+    color: yellow;
+    display: inline-block;
+    margin-right: 100px;
+    margin-bottom: 55px;
+}
+
+.playerExampleBox span {
+    display: block;
+    text-align: left;
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+    transition: 0.35s;
+}
+
+
+.playerExampleBox h1 {
+    font-size: 40px;
+    text-decoration: none;
+    background: yellow;
+    color: #000096;
+    margin-bottom: 20px;
+    border-radius: 3vh 3vh 0vh 0vh;
+    transition: 0.35s;
+}
+.playerExampleBoxImg img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.playerExampleBoxImg {
+    padding: 10px 40px;
+}
+span.titleLine {
+    font-size: 25px;
+    text-decoration: underline;
+}
+.playerFollowText {
+    font-size: 25px;
+    text-align: left;
+    padding: 10px;
+    font-weight: normal;
+    text-decoration: underline;
+    margin: 0px;
+}
+.playerFollow {
+    text-align: center;
+}
+
+.playerFollow i {
+    color: #000096;
+    padding: 10px;
+    background: yellow;
+    width: 15px;
+    font-size: 18px;
+    height: 15px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    border-radius: 100%;
+    transition: 0.35s;
+    font-weight: bold;
+}
+.playerFollow i:hover{
+    color: yellow;
+    background-color: #3132fe;
+}
+.playerExampleBox:last-child {
+    margin-right: 0px;
+}
+.playerExampleBox:hover h1 {
+    background: #000096;
+    color: yellow;
+}
+.playerExampleBox:hover .playerBoxName {
+    color: #000096;
+    background: yellow;
+}
+
+span.playerBoxName {
+    transition: 0.35s;
+}
+.playerExampleBox span:hover{
+    background: yellow;
+    color: #000096;
+    cursor: pointer;
+}
+.footer {
+    background-image: url(../img/bgfooter.jpg);
+    color: yellow;
+    font-size: 20px;
+    padding: 15px 15px;
+}
+
+.shortVideosBoxLast .shortVideosBox {
+    margin-right: 100px;
+}
+
