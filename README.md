@@ -8,5 +8,5 @@ I made this 2 months ago.
 
 Photos are collected from google.
 
-I'm now using is for INIT 3.0
+I'm now using is for INIT 4.0
 
